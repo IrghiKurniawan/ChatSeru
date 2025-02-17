@@ -1,0 +1,120 @@
+    html, body{
+        overflow: hidden;
+        height: 100vh;
+    }
+    body {
+        font-family: 'Roboto', sans-serif;
+        background-color: #FF6F00;
+        color: white;
+        margin: 0;
+        padding: 0;
+    }
+    .container {
+        max-width: 400px;
+        margin: 0 auto;
+        padding: 10px;
+        text-align: center;
+    }
+    .logo {
+        height: 100px;
+        margin: 0 auto 20px;
+        position: relative;
+        right: 10px;
+    }
+    .flex-logo{
+        display: flex;
+        justify-content: space-between;
+        position: relative;
+        right: 8%;
+    }
+    .posisi-logo{
+        position: relative;
+        right: 170%;
+
+    }
+    .title {
+        font-size: 2rem;
+        font-weight: bold;
+        position: relative;
+        right: 20%;
+        top: 11px;
+    }
+    .description {
+        margin-top: 10px;
+    }
+    .join-button {
+        background-color: #E53935;
+        color: white;
+        font-weight: bold;
+        padding: 10px 20px;
+        border-radius: 9999px;
+        font-size: 2rem;
+        border: none;
+        cursor: pointer;
+        margin-top: 10px;
+    }
+    .join-instructions {
+        margin-top: 10px;
+        font-size: 1.5em;
+    }
+    .prize-section {
+        margin-top: 30px;
+        position: relative;
+        right: 100%;
+        bottom: 300px;
+    }
+    .prize-image {
+        height: 400px;
+        margin: 0 0 20px;
+    }
+    .prize-title {
+        font-size: 1.5rem;
+        font-weight: bold;
+    }
+    .prize-description {
+        margin-top: 10px;
+    }
+    .subscription-button {
+        color: black;
+        font-weight: bold;
+        font-size: 1.25rem;
+        display: inline-block;
+    }
+    .subscription-price {
+        margin-top: 10px;
+        font-size: 1rem;
+        font-weight: bold;
+        color: black;
+    }
+    .contact-section {
+        position: relative;
+        top: 60px;
+    }
+    .contact-title {
+        font-size: 1.5rem;
+        font-weight: bold;
+        color: black;
+    }
+    .contact-info {
+        margin-top: 10px;
+    }
+    .contact-image {
+        width: 150px;
+        height: 150px;
+        margin: 20px auto 0;
+    }
+    .join-now {
+        margin-top: 30px;
+        font-size: 2rem;
+        text-align: center;
+        font-weight: bold;
+        color: #E53935;
+    }
+    .posisi-operator{
+        position: relative;
+        top: 60px;
+    }
+    .button-posisi{
+        position: relative;
+        top: 20px;
+    }

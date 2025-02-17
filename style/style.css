@@ -53,6 +53,10 @@
         cursor: pointer;
         margin-top: 10px;
     }
+    .join-button:hover{
+        background-color: white;
+        color: #E53935;
+    }
     .join-instructions {
         margin-top: 10px;
         font-size: 1.5em;
